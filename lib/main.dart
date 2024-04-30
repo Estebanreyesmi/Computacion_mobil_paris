@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Pars',
+      title: 'Paris',
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.routes,
       onGenerateRoute: AppRoutes.onGenerateRoute,
