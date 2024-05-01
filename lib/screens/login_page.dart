@@ -65,8 +65,8 @@ class _LoginFormState extends State<LoginForm> {
                 if (_formKey.currentState != null) {
                   if (_formKey.currentState!.validate()) {
                     _formKey.currentState!.save();
-                    // Aquí puedes realizar la autenticación con el correo electrónico y la contraseña (_email y _password)
-                    // Por ejemplo, puedes enviar una solicitud HTTP a tu backend para autenticar al usuario
+
+                    // enviar una solicitud HTTP al backend para autenticar al usuario
                   }
                 }
               },
