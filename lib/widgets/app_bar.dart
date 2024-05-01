@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../screens/login_page.dart';
 import 'widgets.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -28,7 +29,13 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         IconButton(
           icon: const Icon(Icons.account_circle_outlined, color: Colors.white),
-          onPressed: () {},
+          onPressed: () {
+            // Navega a la página de inicio de sesión al hacer clic en el ícono de cuenta
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => LoginPage()),
+            );
+          },
         ),
         IconButton(
           icon: const Icon(Icons.shopping_cart_outlined, color: Colors.white),

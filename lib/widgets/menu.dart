@@ -36,7 +36,8 @@ class CustomDrawer extends StatelessWidget {
               ListTile(
                 title: Text('Pantalones'),
                 onTap: () {
-                  Navigator.pop(
+                  Navigator.pop(context);
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => RopaPage()),
                   );
@@ -45,7 +46,8 @@ class CustomDrawer extends StatelessWidget {
               ListTile(
                 title: Text('Gorros'),
                 onTap: () {
-                  Navigator.pop(
+                  Navigator.pop(context);
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => RopaPage()),
                   );
@@ -54,7 +56,8 @@ class CustomDrawer extends StatelessWidget {
               ListTile(
                 title: Text('Polerones'),
                 onTap: () {
-                  Navigator.pop(
+                  Navigator.pop(context);
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => RopaPage()),
                   );
@@ -63,7 +66,8 @@ class CustomDrawer extends StatelessWidget {
               ListTile(
                 title: Text('Parkas'),
                 onTap: () {
-                  Navigator.pop(
+                  Navigator.pop(context);
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => RopaPage()),
                   );
@@ -72,7 +76,8 @@ class CustomDrawer extends StatelessWidget {
               ListTile(
                 title: Text('Poleras'),
                 onTap: () {
-                  Navigator.pop(
+                  Navigator.pop(context);
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => RopaPage()),
                   );
