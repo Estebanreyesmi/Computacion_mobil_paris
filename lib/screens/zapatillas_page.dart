@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:prueba2/widgets/app_bar.dart';
 import 'package:prueba2/widgets/menu.dart';
-import 'package:prueba2/widgets/widgets.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class ZapatillasPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -12,11 +10,7 @@ class HomeScreen extends StatelessWidget {
       drawer: CustomDrawer(),
       body: const SingleChildScrollView(
         child: Column(
-          children: [
-            Container1(),
-            Container4(),
-            Container5(),
-          ],
+          children: [],
         ),
       ),
     );
