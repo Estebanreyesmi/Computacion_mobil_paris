@@ -14,7 +14,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       leading: Builder(
         builder: (BuildContext context) {
           return IconButton(
-            icon: const Icon(Icons.menu),
+            icon: const Icon(Icons.menu, size: 34),
             onPressed: () {
               Scaffold.of(context).openDrawer();
             },
@@ -28,7 +28,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       actions: [
         IconButton(
-          icon: const Icon(Icons.account_circle_outlined, color: Colors.white),
+          icon: const Icon(Icons.account_circle_outlined,
+              color: Colors.white, size: 34),
           onPressed: () {
             // Navega a la página de inicio de sesión al hacer clic en el ícono de cuenta
             Navigator.push(
@@ -38,7 +39,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           },
         ),
         IconButton(
-          icon: const Icon(Icons.shopping_cart_outlined, color: Colors.white),
+          icon: const Icon(Icons.shopping_cart_outlined,
+              color: Colors.white, size: 34),
           onPressed: () {},
         ),
       ],
